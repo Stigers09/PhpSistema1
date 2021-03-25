@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-mar-2021, 20:29:38
+    Author     : Bob
+*/
+
+
+.subMenu{	
+	display: none;
+	position: absolute;
+	background-color: white;
+	border: 5px solid #ccc;	
+	padding: 0;
+	list-style-type: none;
+}
+.subMenu li:hover ul{
+	display: block;		
+}
+
+.header__div-ul li:hover .subMenu{
+	display: block;	
+	color: 	red;
+	width: 150px;		
+}
+.subMenu li{	
+	width: 100%;
+	color: red;
+}
+.subMenu li a{	
+	line-height: unset;
+	white-space: nowrap;	
+	background-color: #aaa;	
+}
+.header__div-ul li:hover {
+	background-color: #000;
+	color: #000;
+} 
+
+
+@media 	(max-width: 600px) {
+	.nav__div-ul {	
+		flex-direction: column;
+	}	
+
+}
+@media 	(max-width: 400px) {
+	.nav__div-ul {	
+		flex-direction: column;
+		margin: 0;
+	}	
+	
+}

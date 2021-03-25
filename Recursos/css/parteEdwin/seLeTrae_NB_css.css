@@ -1,0 +1,261 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-mar-2021, 12:14:23
+    Author     : Bob
+*/
+
+*{	
+	box-sizing: border-box;
+}
+
+header{	
+	display: flex;	
+	margin: .25em auto;
+	padding: 5px;	
+	width: 90vw;
+	height: 15vh;
+	background: #a0f;	
+	border-radius: .9em;	
+}
+header img{		
+	display: block;	
+	width: 200px;
+	height: 100%;		
+}
+
+.header__div{	
+	position: relative;
+	width: 	60%;
+	height: 92%;		
+	margin: 0;
+	padding:0;	
+	align-content: center;
+}
+
+header div h1 {	
+	position: absolute;
+	top:0;		
+	display: block;
+	flex-grow: 1;
+		width: 100%;		
+		height: 50%;
+		top:0;
+		margin: 0;
+		text-align: center;
+		font-size: 2rem;
+		font-family: Georgia;
+		font-weight: 100%;		
+		line-height: 1;
+		color: blue;		
+		align-content: center;
+	}
+.header__div-ul {	
+	position: absolute;	
+	text-align: left;
+	display: flex;
+	float:right;	  	
+  	width: 100%;  	
+  	bottom: 0;	
+  	list-style: none;
+  	margin: 0;
+	padding:0;
+}
+.header__div-ul li{		
+	float:left;
+	position: relative;
+	text-align: center;
+	flex-grow: .5;		
+	padding: 5px;	
+	border-right: 1px solid #fff;		
+}
+.header__div-ul li a{	
+	display: block;
+	position: 0rem 2rem;
+	color: #fff;	
+	text-decoration: none;
+}
+
+.subMenu{	
+	display: none;
+	position: absolute;
+	background-color: white;
+	border: 5px solid #ccc;	
+	padding: 0;
+	list-style-type: none;
+}
+.subMenu li:hover ul{
+	display: block;		
+}
+
+.header__div-ul li:hover .subMenu{
+	display: block;	
+	color: 	red;
+	width: 150px;		
+}
+.subMenu li{	
+	width: 100%;
+	color: red;
+}
+.subMenu li a{	
+	line-height: unset;
+	white-space: nowrap;	
+	background-color: #aaa;	
+}
+.header__div-ul li:hover {
+	background-color: #000;
+	color: #000;
+} 
+
+nav{
+	display: none;		
+	margin: .25em auto;
+	width: 90vw;
+	height: 5vh;	
+	background: orange;	
+	border-radius: .5em;
+	padding: .25em;
+}
+.nav__div-ul {	
+	margin:0;
+	padding:0;		
+	display: flex;
+  	width: 99%;
+  	align-content: center;  	
+}
+.nav__div-ul li{	
+	display: block;
+	text-align: center;
+	flex-grow: 1;
+	border: 1px solid #fff;
+
+}
+.nav__div-ul li:hover {
+	background-color: #000;
+	color: #fff;
+} 
+
+
+
+section{
+	margin: .25em auto;	
+	height: 78vh;
+	background: rgb(5,178,248);
+	border-radius: .5em;	
+	text-align: center;
+	width: 80%;
+	overflow: auto;
+}
+.images {
+	display: flex;	
+	flex-wrap: wrap;		
+	height: 99%;
+	justify-content: center;		
+
+}
+.cont{			
+	margin:10px;
+	width: 200px;
+	height: 230px;	
+	font-size: 1.5em;
+	text-align: center;		
+}
+.cont img{	
+	width: 100%;	
+	height: 80%;	
+	transition: 1s;	
+}
+.cont ul {
+	display: inline;
+	margin-top:0px;
+  	list-style-type: none;  	
+  	width: 80%;
+  	height: 20%;  	
+  	text-align: center;
+  	
+  	
+
+}
+.cont img:hover{
+	width: 150%;
+	height: 150%;
+}
+.cont img:active{
+	width: 150%;
+	height: 150%;
+}
+footer{
+	margin: .25em auto;
+	width: 90vw;
+	height: 5vh;
+	background: #00f;	
+	border-radius: .5em;	
+		padding: .25em;	
+	text-align: center;
+	color: #fff;
+	
+}
+@media 	(max-width: 600px) {
+	nav{		
+		display: block;
+	margin: .25em auto;
+	width: 90vw;
+	height: 15vh;	
+	background: orange;	
+	border-radius: .5em;
+	padding: .25em;		
+	}
+	.nav__div-ul {	
+		flex-direction: column;
+	}	
+	section{
+		margin: .25em auto;
+		width: 70%;	
+		height: 60vh;
+		background: rgb(5,178,248);
+		border-radius: .5em;
+		padding: .25em;	
+		text-align: center;		
+		overflow: auto;
+	}
+	.header__div-ul {	
+	display: none;	;	  	
+  	width: 99%;
+  	border: 1px solid green;
+  	align-content: center;
+}
+}
+@media 	(max-width: 400px) {
+	nav{	
+		display: flex;
+	width: 90vw;
+	height: 15vh;	
+	margin: .25em;
+	background: orange;	
+	border-radius: .5em;
+	padding: 0;		
+	}
+	.nav__div-ul {	
+		flex-direction: column;
+		margin: 0;
+	}	
+	section{
+		margin: .25em auto;
+		width: 70%;	
+		height: 55vh;
+		background: rgb(5,178,248);
+		border-radius: .5em;
+		padding: .25em;	
+		text-align: center;		
+		overflow: auto;
+	}
+	.header__div-ul {	
+	display: none;	;	  	
+  	width: 99%;
+  	border: 1px solid green;
+  	align-content: center;
+}
+}

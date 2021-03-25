@@ -1,0 +1,79 @@
+section{		
+	background: lightgreen;
+}
+.h2{
+	display: block;
+	position: sticky;	
+	background-color: green;	
+	width: 100%;
+	height: 60px;
+	bottom: 0px;	
+	top: 0px;	
+}
+h2{	
+	display: inline-block;			
+	margin: 10px auto;
+	padding: 5px;
+	background-color: lightgreen;
+	border: 2px solid green;
+	width: 50%;
+	z-index: 100;
+}
+.images {		
+	flex-wrap: wrap;
+	margin: 10px auto;
+	display: flex;
+	height: 99%;
+	justify-content: center;		
+
+}
+.conten{
+	position: block;
+	margin: 10px auto;
+	padding: 10px;
+	width: 80%;	
+	border: 10px solid green;
+	text-align: justify;
+	min-height: 300px;
+	
+}
+.cont{
+	float: left;
+	margin:10px;
+	width: 200px;	
+	height: 230px;
+	font-size: 1.5em;
+	
+}
+.cont img{	
+	width: 100%;	
+	height: 80%;	
+	transition: 1s;	
+}
+.cont ul {
+	display: inline;
+	margin-top:0px;
+  	list-style-type: none;  	
+  	width: 80%;
+  	height: 20%;  	
+  	text-align: center;
+  	
+  	
+
+}
+.cont img:hover{
+	width: 150%;
+	height: 150%;
+}
+.cont img:active{
+	width: 150%;
+	height: 150%;
+}
+@media 	(max-width: 600px) {
+h2{		
+	margin: 0px auto;	
+	width: 80%;
+}
+}
+@media 	(max-width: 400px) {
+}

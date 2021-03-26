@@ -59,10 +59,10 @@
 		<div>
 			<ul class="nav__div-ul">
 				<li><a href="">Categorias</li>
-				<li><a href="">Lo mas visto</li>
-				<li><a href="">Ofertas</li>
-				<li><a href="">Se le trae</li>
-				<li><a href="">Mi configuración</li>
+				<li><a href="<?php base_url(); ?>loMasVisto">Lo mas visto</li>
+				<li><a href="<?php base_url(); ?>ofertas">Ofertas</li>
+				<li><a href="<?php base_url(); ?>seLeTrae">Se le trae</li>
+				<li><a href="<?php base_url(); ?>miConfiguracion">Mi configuración</li>
 			</ul>
 		</div>			
 	</nav>

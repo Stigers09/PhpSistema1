@@ -7,15 +7,19 @@ and open the template in the editor.
     Created on : 26-mar-2021, 15:39:45
     Author     : Bob
 */
+body{
+    background-color: black;
+}
 
 section{
-		background: #696969;
+		background: black;
+                color: white;
 	}
 
 .h2{
 	display: block;
 	position: sticky;	
-	background-color: #D8DC04;	
+	background-color: red;	
 	width: 100%;
 	height: 60px;
 	bottom: 0px;	
@@ -25,7 +29,7 @@ h2{
 	display: inline-block;			
 	margin: 10px auto;
 	padding: 5px;
-	background-color: #F7FA2E;
+	background-color: red;
 	border: 2px solid orange;
 	width: 50%;
 	z-index: 100;

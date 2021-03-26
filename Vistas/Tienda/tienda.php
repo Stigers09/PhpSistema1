@@ -7,10 +7,10 @@
         <meta name="keywords" content="Ropa Bebe Niños Niñas" />
         <title>Nubecitas de colores</title>
         <link rel="stylesheet" type="text/css" href="css/parteEdwin/normalize.css">
-        <link href="../../Recursos/css/parteEdwin/tienda_NB_css.css" rel="stylesheet" type="text/css"/>
+        <link href="<?= mediaEdwincss() ?>tienda_NB_css.css" rel="stylesheet" type="text/css"/>
         <title><?php echo $data['page_tag'];?></title>	
-        <link rel="shortcut icon" href="<?= media(); ?>images/Logo.ico">        
-        <link rel="shortcut icon" href="<?= media(); ?>images/Logo.ico">
+        <link rel="shortcut icon" href="<?= mediaEdwinimages(); ?>/Logo.ico">        
+        
         <link href="css/parteEdwin/_10header.css" rel="stylesheet" type="text/css"/>        
         <link href="css/parteEdwin/_20menu.css" rel="stylesheet" type="text/css"/>
         <link href="css/parteEdwin/_30nav.css" rel="stylesheet" type="text/css"/>

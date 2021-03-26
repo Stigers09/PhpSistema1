@@ -6,22 +6,22 @@
 	<meta name="keywords" content="Ropa Bebe Niños Niñas" />
 	<title>Nubecitas de colores</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link href="<?= media() ?>/css/parteEdwin/loMasVisto_NB_css.css" rel="stylesheet" type="text/css"/>
-        <link href="<?= media() ?>css/parteEdwin/_10header.css" rel="stylesheet" type="text/css"/>        
-        <link href="<?= media() ?>css/parteEdwin/_20menu.css" rel="stylesheet" type="text/css"/>
-        <link href="<?= media() ?>css/parteEdwin/_30nav.css" rel="stylesheet" type="text/css"/>
-        <link href="<?= media() ?>css/parteEdwin/_50section.css" rel="stylesheet" type="text/css"/>
-        <link href="<?= media() ?>css/parteEdwin/_51tarjetas.css" rel="stylesheet" type="text/css"/>
-        <link href="<?= media() ?>css/parteEdwin/_70footer.css" rel="stylesheet" type="text/css"/>        
+        <link href="<?= mediaEdwincss() ?>/loMasVisto_NB_css.css" rel="stylesheet" type="text/css"/>
+        <link href="<?= mediaEdwincss() ?>/_10header.css" rel="stylesheet" type="text/css"/>        
+        <link href="<?= mediaEdwincss() ?>/_20menu.css" rel="stylesheet" type="text/css"/>
+        <link href="<?= mediaEdwincss() ?>/_30nav.css" rel="stylesheet" type="text/css"/>
+        <link href="<?= mediaEdwincss() ?>/_50section.css" rel="stylesheet" type="text/css"/>
+        <link href="<?= mediaEdwincss() ?>/_51tarjetas.css" rel="stylesheet" type="text/css"/>
+        <link href="<?= mediaEdwincss() ?>/_70footer.css" rel="stylesheet" type="text/css"/>        
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">	
-	<link rel="script" href="js/index_NB_js.js">	
+	<link rel="script" href="<?= mediaEdwinjs() ?>/index_NB_js.js">	
 
 </head>
 
 <body>
 	<header>		
-		<a href="tienda.jsp">
-			<img src="images/Logo1.png" alt="Nubecitas de Colores">
+		<a href="tienda">
+                    <img src="<?= mediaEdwinimages() ?>/Logo1.png" alt="Nubecitas de Colores">
 		</a>		
 		<div class="header__div">
 			
@@ -29,30 +29,30 @@
 											
 			<div>
 				<ul class="header__div-ul">
-					<li><a href="categorias.html">Categorias<ion-icon name="caret-down-outline"></ion-icon></a>
+					<li><a href="">Categorias<ion-icon name="caret-down-outline"></ion-icon></a>
 						<ul class="subMenu">
 							<li><a href="">Ropa</a></li>
 							<li><a href="">Juguetes</a></li>
 							<li><a href="">Zapatos</a></li>							
 						</ul>
 					</li>
-					<li><a href="loMasVisto.jsp">Lo mas visto</a></li>
-					<li><a href="ofertas.jsp">Ofertas</a></li>
-					<li><a href="seLesTrae.jsp">Se le trae</a></li>
+					<li><a href="loMasVisto">Lo mas visto</a></li>
+					<li><a href="ofertas">Ofertas</a></li>
+					<li><a href="seLesTrae">Se le trae</a></li>
 					<li><a href="">Mi configuración<ion-icon name="caret-down-outline"></ion-icon></a>
 						<ul class="subMenu">
-							<li><a href="">Mis Datos</a></li>
+							<li><a href="misDatos">Mis Datos</a></li>
 							<li><a href="">Mis compras</a></li>
 							<li><a href="">Mis favoritos</a></li>
 							<li><a href="">PQRS</a></li>
-							<li><a href="index.html">Cerrar Sesión</a></li>
+							<li><a href="home">Cerrar Sesión</a></li>
 						</ul>
 					</li>
 				</ul>
 			</div>	
 		</div>				
 
-		<script src="js/index_NB_js.js"></script>
+		<script src="<?= mediaEdwinjs() ?>/index_NB_js.js"></script>
 	</header>
 
 	<nav>
@@ -71,42 +71,42 @@
 		<div class="h2"><h2>Lo que más has visto</h2></div>
 			<div class="images">
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/camiseta.jpg"></a>	
+                                    <a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/camiseta.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/vestido.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/vestido.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/Pijama.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/Pijama.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/camiseta.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/camiseta.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/vestido.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/vestido.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/Pijama.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/Pijama.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
@@ -139,42 +139,42 @@
 						</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/camiseta.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/camiseta.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/vestido.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/vestido.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/Pijama.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/Pijama.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/camiseta.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/camiseta.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/vestido.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/vestido.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>
 					</ul>							
 				</div>
 				<div class="cont">
-					<a class="section__a1" href=""><img src="images/ropaBebe/Pijama.jpg"></a>	
+					<a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/Pijama.jpg"></a>	
 					<ul>	
 						<li>nombreProducto</li>
 						<li>$ 35,000</li>

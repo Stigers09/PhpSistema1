@@ -13,6 +13,15 @@
     function media(){
         return BASE_URL."Recursos/";
     }
+    function mediaEdwincss(){
+        return BASE_URL."Recursos/css/parteEdwin/";
+    }
+    function mediaEdwinjs(){
+        return BASE_URL."Recursos/js/parteEdwin/";
+    }
+    function mediaEdwinimages(){
+        return BASE_URL."Recursos/images/parteEdwin/";
+    }
 
     // Formatea información
     function dep($data){

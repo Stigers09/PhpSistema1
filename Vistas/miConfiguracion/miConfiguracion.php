@@ -47,6 +47,10 @@
 	<section>				
 		<h1>Hola ${usuario.nombreUsuario}</h1>
 			<section class="content">
+                            <?php 
+                                dep($data);
+                                verUsuarios();
+                            ?>
                     <div class="box">
                         <div class="box-header with-border">
                             <i class="fa fa-edit"></i> <h3 class="box-title">Actualizar Datos Usuario</h3>  

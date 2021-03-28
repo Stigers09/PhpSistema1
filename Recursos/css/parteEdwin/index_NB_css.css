@@ -5,7 +5,7 @@ and open the template in the editor.
 */
 /* 
     Created on : 27-feb-2021, 14:17:37
-    Author     : Bob
+    Author     : Edwin
 */
 
 *{
@@ -34,6 +34,7 @@ header{
 	position: relative;
 	right: 20px;
 	width: 130%;
+        margin-top: 20px;
 }
 .titulo{			
 	position: absolute;	
@@ -46,7 +47,7 @@ header{
 }
 .titulo h1 {
 		font-size: 5em;
-		font-family: Georgia;
+		font-family: Georgia, sans-serif;
 		font-weight: 100;
 		line-height: 1;
 		color: blue;		
@@ -126,7 +127,7 @@ section{
 }
 .section__a2{
 	margin: 10px;	
-	width: 200px;	
+	width: 00px;	
     object-fit: cover;	
 	z-index: 20;	
 }

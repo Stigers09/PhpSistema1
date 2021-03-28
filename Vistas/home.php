@@ -5,9 +5,9 @@
 	<meta name="description" content="E-commerce de Ropa para Bebe" />
 	<meta name="keywords" content="Ropa Bebe Niños Niñas" />
 	<title><?php echo $data['page_tag'];?></title>	
-        <link rel="shortcut icon" href="<?= media(); ?>/images/Logo.ico">
-        <link href="<?= media(); ?>css/parteEdwin/index_NB_css.css" rel="stylesheet" type="text/css"/>	        
-        <link href="<?= media(); ?>js/index_NB_js.js" type="text/javascript">        
+        <link rel="shortcut icon" href="<?= mediaEdwinimages(); ?>/Logo.ico">
+        <link href="<?= mediaEdwincss(); ?>/index_NB_css.css" rel="stylesheet" type="text/css"/>	        
+        <link href="<?= mediaEdwinjs(); ?>js/index_NB_js.js" type="text/javascript">        
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" type="text/css">
         
 </head>
@@ -18,12 +18,9 @@
 			<li><a href="sign_in">Registrarse</a></li>
 		</ul>
 		<div class="imagen">
-                    <img src="<?= media(); ?>/images/Logo1.png"  alt="Logo">
-		</div>
-		<div class="titulo">
-			<h1 class="titulo__h1">NUBECITAS DE...<?= $data['page_title'];?></h1>
-		</div>
-		<script src="./Recursos/js/index_NB_js.js"></script>
+                    <img src="<?= mediaEdwinimages(); ?>/Logo1.png"  alt="Logo">
+		</div>		
+		<script src="<?= mediaEdwinjs(); ?>/index_NB_js.js"></script>
 	</header>
 
 	<section id="<?php $data['page_id']; ?>">

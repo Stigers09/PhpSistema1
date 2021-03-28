@@ -1,10 +1,3 @@
-<%-- 
-    Document   : ofertas
-    Created on : 03-mar-2021, 21:21:32
-    Author     : Bob
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -19,14 +12,14 @@
     <link href="<?= media(); ?>css/parteEdwin/_30nav.css" rel="stylesheet" type="text/css"/>
     <link href="<?= media(); ?>css/parteEdwin/_50section.css" rel="stylesheet" type="text/css"/>    
     <link href="<?= media(); ?>css/parteEdwin/ofertas_NB_css.css" rel="stylesheet" type="text/css"/>
-    <link href="<?= media(); ?>css/parteEdwin/_70footer.css" rel="stylesheet" type="text/css"/>
+    <link href="<?= mediaEdwincss(); ?>css/parteEdwin/_70footer.css" rel="stylesheet" type="text/css"/>
     
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="script" href="js/index_NB_js.js">
 </head>
 
 <body>
-    <header> <a href="tienda.jsp"> <img src="images/Logo.PNG" alt="Nubecitas de Colores"> </a>
+    <header> <a href="<?php base_url() ?>tienda"> <img src="<?= mediaEdwinimages(); ?>/Logo.PNG" alt="Nubecitas de Colores"> </a>
         <div class="header__div">
             <h1>NUBECITAS DE COLORES</h1>
             <div>
@@ -68,7 +61,7 @@
     </nav>
     <section>
         <div class="h2">
-            <h2>Ofertas solo por hoy</h2>
+            <h2><?= $data['page_title'];?></h2>
         </div>
         <div class="images">
             <div class="conten">

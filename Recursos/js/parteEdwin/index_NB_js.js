@@ -8,9 +8,9 @@
      * Array con las imagenes y enlaces que se iran mostrando en la web
      */
     var imagenes=new Array(
-        ['./Recursos/images/ropaBebe/camiseta.jpg'/*,'http://www.NubecitasDeColores.com'*/],
-        ['./Recursos/images/ropaBebe/Pijama.jpg'],
-        ['./Recursos/images/ropaBebe/vestido.jpg']        
+        ['./Recursos/images/parteEdwin/ropaBebe/camiseta.jpg'/*,'http://www.NubecitasDeColores.com'*/],
+        ['./Recursos/images/parteEdwin/ropaBebe/Pijama.jpg'],
+        ['./Recursos/images/parteEdwin/ropaBebe/vestido.jpg']        
     );
     var contador=0;
  

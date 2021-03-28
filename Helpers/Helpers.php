@@ -13,6 +13,15 @@
     function media(){
         return BASE_URL."Recursos/";
     }
+    function mediaJonathancss(){
+        return BASE_URL."Recursos/css/parteJonathan/";
+    }
+    function mediaJonathanjs(){
+        return BASE_URL."Recursos/js/parteJonathan/";
+    }
+    function mediaJonathanimages(){
+        return BASE_URL."Recursos/images/parteJonathan/";
+    }
     function mediaEdwincss(){
         return BASE_URL."Recursos/css/parteEdwin/";
     }
@@ -21,6 +30,33 @@
     }
     function mediaEdwinimages(){
         return BASE_URL."Recursos/images/parteEdwin/";
+    }
+    function mediaStivencss(){
+        return BASE_URL."Recursos/css/parteStiven/";
+    }
+    function mediaStivenjs(){
+        return BASE_URL."Recursos/js/parteStiven/";
+    }
+    function mediaStivenimages(){
+        return BASE_URL."Recursos/images/parteStiven/";
+    }
+    function mediaOscarcss(){
+        return BASE_URL."Recursos/css/parteOscar/";
+    }
+    function mediaOscarjs(){
+        return BASE_URL."Recursos/js/parteOscar/";
+    }
+    function mediaOscarimages(){
+        return BASE_URL."Recursos/images/parteOscar/";
+    }
+    function mediaManuelcss(){
+        return BASE_URL."Recursos/css/parteManuel/";
+    }
+    function mediaManueljs(){
+        return BASE_URL."Recursos/js/parteManuel/";
+    }
+    function mediaManuelimages(){
+        return BASE_URL."Recursos/images/parteManuel/";
     }
 
     // Formatea información

@@ -60,9 +60,9 @@
 		<div>
 			<ul class="nav__div-ul">
 				<li><a href="">Categorias</li>
-				<li><a href="">Lo mas visto</li>
-				<li><a href="">Ofertas</li>
-				<li><a href="">Se le trae</li>
+				<li><a href="loMasVisto">Lo mas visto</li>
+				<li><a href="ofertas">Ofertas</li>
+				<li><a href="seLeTrae">Se le trae</li>
 				<li><a href="">Mi configuración</li>
 			</ul>
 		</div>			

@@ -1,1 +1,5 @@
-<!DOCTYPE html>
+<?php 
+headerTienda($data);
+sectionTienda($data);
+footerTienda($data); 
+?>    

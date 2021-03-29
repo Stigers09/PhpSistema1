@@ -67,6 +67,19 @@
         return $format;
     }
     
+    function headerTienda($data=""){
+        $view_header = "Vistas/Plantillas/header.php";
+        require_once ($view_header);
+    }
+    function sectionTienda($data=""){
+        $view_section = "Vistas/Plantillas/section.php";
+        require_once ($view_section);
+    }
+    function footerTienda($data=""){
+        $view_footer = "Vistas/Plantillas/footer.php";
+        require_once ($view_footer);
+    }
+    
     function strClean($strCadena){
         $string = preg_replace(['/\s+/','/^\s|\s$/'],[' ',''],$strCadena);
         $string = trim($string); // Elimina espacion en blanco al inicio y al final

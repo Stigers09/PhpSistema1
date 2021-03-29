@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Sidebar Dashboard Template</title>
      <link rel="stylesheet" href="<?= mediaEdwincss(); ?>/style.css"> 
+     <link href="../../Recursos/css/parteEdwin/style_1.css" rel="stylesheet" type="text/css"/>
      <link href="<?= mediaEdwincss() ?>/seLeTrae_NB_css.css" rel="stylesheet" type="text/css"/>
      <link href="<?= mediaEdwincss(); ?>/_10header.css" rel="stylesheet" type="text/css"/>
     <link href="<?= mediaEdwincss(); ?>/_20menu.css" rel="stylesheet" type="text/css"/>

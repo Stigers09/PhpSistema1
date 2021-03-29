@@ -16,6 +16,11 @@
 
     <body>
         <a href="<?php base_url(); ?>home"><div class="gray"></div></a>
+
+<!--
+        STIVEN ACA PUEDE COLOCAR EL FORMULARIO
+-->
+
         <form class="formulario" action="tienda" method="post" >
             <h1>Registro</h1>
             <div class="contenedor">
@@ -51,11 +56,14 @@
 
                 <button type="submit" id="" name="btnRegistrar" value="Registrar" class="button"> Registrar</button>
                 <br><br>
-                <p>¿Ya tienes una cuenta?<a class="link" href="form.php">Iniciar Sesion</a></p>
+                <p>¿Ya tienes una cuenta?<a class="link" href="<?php base_url(); ?>login">Iniciar Sesion</a></p>
             </div>
         </form>
 
 
+<!--
+        FONDO DE ENTRADA PRINCIPAL NO BORRAR
+-->
 
 
         <header>
@@ -79,7 +87,6 @@
                 <a class="section__a1" href="" id="link1"><img src="" id="imagen1"></a>
                 <a class="section__a2" href="" id="link2"><img src="" id="imagen2"></a>
                 <a class="section__a3" href="" id="link3"><img src="" id="imagen3"></a>
-
             </div>
         </section>
 

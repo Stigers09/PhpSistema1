@@ -69,6 +69,10 @@ h2{
 	width: 150%;
 	height: 150%;
 }
+
+footer{
+    background-color: green;	
+}
 @media 	(max-width: 600px) {
 h2{		
 	margin: 0px auto;	

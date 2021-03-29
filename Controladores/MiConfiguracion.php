@@ -29,7 +29,8 @@ class MiConfiguracion extends Controllers
     }
     public function verUsuario($id){
         $data = $this->model->getUser($id);
-        print_r($data);
+        echo json_decode($data, JSON_UNESCAPED_UNICODE);
+        die();
     }
     public function verUsuarios(){
         $data = $this->model->getUsers();

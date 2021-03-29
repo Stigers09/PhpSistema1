@@ -107,3 +107,4 @@
             </div>
         </div>
     </section>
+<?php footerTienda($data); ?>

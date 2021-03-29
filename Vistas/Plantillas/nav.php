@@ -1,4 +1,5 @@
 <nav>
+    <input type="checkbox" id="check">
     <label for="check">
         <i class="fas fa-bars" id="sidebar_btn"></i>
     </label>

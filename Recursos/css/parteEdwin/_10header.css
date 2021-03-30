@@ -26,6 +26,12 @@ header img{
 	width: 200px;
 	height: 100%;		
 }
+.icono{
+    margin-top: -5px;
+    display: inline;
+    	width: 20px;
+	height: 20px;		
+}
 
 .header__div{	
 	position: relative;

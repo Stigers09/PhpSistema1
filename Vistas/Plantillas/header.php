@@ -37,7 +37,7 @@
                 <div>
                     <ul class="header__div-ul">
                         <li><a href="<?php base_url(); ?>tienda">Principal</a></li>
-                        <li><a href="">Categorias<ion-icon name="caret-down-outline"></ion-icon></a>
+                        <li><a href="">Categorias<img class="icono" src="<?= mediaEdwinimages(); ?>/iconos/mano.png"></a>
                             <ul class="subMenu">
                                 <li><a href="">Ropa</a></li>
                                 <li><a href="">Juguetes</a></li>
@@ -47,11 +47,11 @@
                         <li><a href="<?php base_url(); ?>loMasVisto">Lo mas visto</a></li>
                         <li><a href="ofertas">Ofertas</a></li>
                         <li><a href="seLeTrae">Se le trae</a></li>
-                        <li><a href="">Mi configuración<ion-icon name="caret-down-outline"></ion-icon></a>
+                        <li><a href=""> USUARIO <img class="icono" src="<?= mediaEdwinimages(); ?>/iconos/mano.png"></a>
                             <ul class="subMenu">
                                 <li><a href="<?php base_url(); ?>miConfiguracion">miConfiguracion</a></li>
                                 <li><a href="<?php base_url(); ?>">Mis compras</a></li>
-                                <li><a href="<?php base_url(); ?>favoritos">Mis favoritos</a></li>
+                                <li><a href="<?php base_url(); ?>favoritos"><img class="icono" src="<?= mediaEdwinimages(); ?>/iconos/estrella.png"> Mis favoritos</a></li>
                                 <li><a href="noEsta">PQRS</a></li>
                                 <li><a href="<?php base_url(); ?>home">Cerrar Sesión</a></li>
                             </ul>

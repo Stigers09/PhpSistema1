@@ -1,30 +1,23 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
-    Created on : 26-mar-2021, 15:39:45
-    Author     : Bob
+    Author     : Edwin
 */
 body{
     background-color: black;
 }
 
-section{
-		background: black;
-                color: white;
-	}
-
-.h2{
-	display: block;
-	position: sticky;	
-	background-color: red;	
-	width: 100%;
-	height: 60px;
-	bottom: 0px;	
-	top: 0px;	
+section, h2{
+    background: #444;
+    color: white;
 }
+
+
+nav, .h2, .cont, footer{
+    background-color: #222;	
+    color: black;
+}
+
+
+
 h2{	
 	display: inline-block;			
 	margin: 10px auto;

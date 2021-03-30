@@ -2,7 +2,7 @@
     <div class="h2"><h2><?= $data['page_title']; ?></h2></div>
     <div class="images">
         <div class="cont">
-            <a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/camiseta.jpg"></a>	
+            <a class="section__a1" href=""><img src="<?= mediaEdwinimages() ?>/ropaBebe/camiseta.jpg"></a>	
             <ul>	
                 <li>nombreProducto</li>
                 <li>$ 35,000</li>

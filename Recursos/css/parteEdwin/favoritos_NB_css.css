@@ -1,0 +1,9 @@
+section, h2{
+		background: #F7FA2E;
+	}
+
+        
+nav, .cont,.h2,footer{
+            background-color: #D8DC04;	
+            color: black;
+        }

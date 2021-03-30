@@ -19,7 +19,7 @@
         <link href="<?= mediaEdwincss() ?>/_20menu.css" rel="stylesheet" type="text/css"/>
         <link href="<?= mediaEdwincss() ?>/_30nav.css" rel="stylesheet" type="text/css"/>
         <link href="<?= mediaEdwincss() ?>/_50section.css" rel="stylesheet" type="text/css"/>
-        <link href="<?= mediaEdwincss() ?>/_51tarjetas<?php echo $data['page_name']; ?>.css" rel="stylesheet" type="text/css"/>
+        <link href="<?= mediaEdwincss() ?>/_51tarjetas.css" rel="stylesheet" type="text/css"/>
         <link href="<?= mediaEdwincss() ?>/_70footer.css" rel="stylesheet" type="text/css"/>        
         <link href="<?= mediaEdwincss() ?>/<?php echo $data['page_name']; ?>_NB_css.css" rel="stylesheet" type="text/css"/>        
 
@@ -40,7 +40,7 @@
                 <h1>NUBECITAS DE COLORES</h1>
                 <div>
                     <ul class="header__div-ul">
-
+                        <li><a href="<?php base_url(); ?>tienda">Principal</a></li>
                         <li><a href="">Categorias<ion-icon name="caret-down-outline"></ion-icon></a>
                             <ul class="subMenu">
                                 <li><a href="">Ropa</a></li>

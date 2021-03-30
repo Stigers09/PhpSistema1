@@ -5,7 +5,7 @@ body{
     background-color: black;
 }
 
-section, h2{
+section{
     background: #444;
     color: white;
 }
@@ -16,27 +16,13 @@ nav, .h2, .cont, footer{
     color: black;
 }
 
-
-
 h2{	
-	display: inline-block;			
-	margin: 10px auto;
-	padding: 5px;
-	background-color: red;
-	border: 2px solid orange;
-	width: 50%;
-	z-index: 100;
-	
+    background-color: red;
 }
+
 @media 	(max-width: 600px) {	
-h2{		
-	margin: 0px auto;	
-	width: 80%;
-}
+
 }
 @media 	(max-width: 400px) {
-	h2{		
-	margin: 0px auto;	
-	width: 80%;
-}
+
 }

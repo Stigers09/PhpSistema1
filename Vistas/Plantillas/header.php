@@ -30,7 +30,7 @@
 
         <header>
             <a href="tienda">
-                <img src="<?= mediaEdwinimages(); ?>/Logo1.png" href="tienda.html" alt="Nubecitas de Colores">
+                <img src="<?= mediaEdwinimages(); ?>/Logo1.png" alt="Nubecitas de Colores">
             </a>
             <div class="header__div">
                 <h1>NUBECITAS DE COLORES</h1>

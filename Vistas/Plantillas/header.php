@@ -11,7 +11,6 @@
         <meta name="keywords" content="Ropa Bebe Niños Niñas" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">	
         <title><?php echo $data['page_tag']; ?></title>
-
         <link href="<?= mediaEdwincss() ?>/_10header.css" rel="stylesheet" type="text/css"/>        
         <link href="<?= mediaEdwincss() ?>/_20menu.css" rel="stylesheet" type="text/css"/>
         <link href="<?= mediaEdwincss() ?>/_30nav.css" rel="stylesheet" type="text/css"/>
@@ -19,11 +18,7 @@
         <link href="<?= mediaEdwincss() ?>/_51tarjetas.css" rel="stylesheet" type="text/css"/>
         <link href="<?= mediaEdwincss() ?>/_70footer.css" rel="stylesheet" type="text/css"/>        
         <link href="<?= mediaEdwincss() ?>/<?php echo $data['page_name']; ?>_NB_css.css" rel="stylesheet" type="text/css"/>        
-        
         <script src="<?= mediaEdwinjs(); ?>/index_NB_js.js"></script>
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
     </head>
 
     <body>
@@ -36,7 +31,7 @@
                 <h1>NUBECITAS DE COLORES</h1>
                 <div>
                     <ul class="header__div-ul">
-                        <li><a href="<?php base_url(); ?>tienda">Principal</a></li>
+                        <li><a href="<?php base_url(); ?>tienda">Inicio</a></li>
                         <li><a href="">Categorias<img class="icono" src="<?= mediaEdwinimages(); ?>/iconos/mano.png"></a>
                             <ul class="subMenu">
                                 <li><a href="">Ropa</a></li>
@@ -51,7 +46,7 @@
                             <ul class="subMenu">
                                 <li><a href="<?php base_url(); ?>miConfiguracion">miConfiguracion</a></li>
                                 <li><a href="<?php base_url(); ?>">Mis compras</a></li>
-                                <li><a href="<?php base_url(); ?>favoritos"><img class="icono" src="<?= mediaEdwinimages(); ?>/iconos/estrella.png"> Mis favoritos</a></li>
+                                <li><a href="<?php base_url(); ?>favoritos">Mis favoritos</a></li>
                                 <li><a href="noEsta">PQRS</a></li>
                                 <li><a href="<?php base_url(); ?>home">Cerrar Sesión</a></li>
                             </ul>

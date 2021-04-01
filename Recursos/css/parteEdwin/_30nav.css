@@ -1,65 +1,84 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
-    Created on : 08-mar-2021, 20:36:23
-    Author     : Bob
+    Author     : Edwin Salamandro
 */
 
 nav{
-	display: none;		
-	margin: .25em auto;
-	width: 90vw;
-	height: 5vh;	
-	border-radius: .5em;
-	padding: .25em;
+    display:none;
 }
-.nav__div-ul {	
-	margin:0;
-	padding:0;		
-	display: flex;
-  	width: 99%;
-  	align-content: center;  	
+
+@media 	(max-width: 800px) {
+    nav{
+    display:flex;
+    margin: 0px auto;
+    width: 90vw;
+    height: 120px;
+    padding: 15px 20px;
 }
-.nav__div-ul li{	
-	display: block;
-	text-align: center;
-	flex-grow: 1;
-	border: 1px solid #fff;
+
+/* icono
+*/
+nav label{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+nav label:hover{
+    cursor: pointer;
+}
+
+#btn_menu{
+    display: none;
+}
+
+    .menu ul{
+        margin: 0px;
+        list-style: none;
+        padding: 10px;
+        display: flex;
+    }
+
+    .menu li:hover{
+        background: red;
+    }
+
+    .menu li a{
+        display: block;
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+    }
 
 }
-.nav__div-ul li:hover {
-	background-color: #000;
-	color: #fff;
-} 
-
-@media 	(max-width: 600px) {
-	nav{		
-		display: block;
-	margin: .25em auto;
-	width: 90vw;
-	height: 15vh;	
-	border-radius: .5em;
-	padding: .25em;		
-	}
-	.nav__div-ul {	
-		flex-direction: column;
-	}	
-
+@media 	(max-width: 768px) {
+    nav{
+        height: 60px;
+        background-color: white;
+    }
+    nav label{
+    display: block;
 }
-@media 	(max-width: 400px) {
-	nav{	
-		display: flex;
-	width: 90vw;
-	height: 15vh;	
-	margin: .25em;
-	border-radius: .5em;
-	padding: 0;		
-	}
-	.nav__div-ul {	
-		flex-direction: column;
-		margin: 0;
-	}	
+
+.menu{
+    position: absolute;    
+    background: gray;
+    z-index: 150;
+    width: 70%;
+    margin-left: -100%;
+    transition: all 0.4s;
 }
+    .menu ul{
+        flex-direction: column;
+    }
+    
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+    
+    #btn_menu:checked ~ .menu{
+        margin:0;
+        margin-top: 45px;
+    }
+}
+

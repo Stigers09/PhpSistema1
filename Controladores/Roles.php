@@ -35,8 +35,8 @@ class Roles extends Controllers
             <button class="btn btn-danger btn-sm btnDelRol" rl="'.$arrData[$i]['idrol'].'" title="Eliminar"><i class="fa fa-trash" aria-hidden="true"></i></button>
                                     </div>';
         }
-        //<span class="badge badge-success">Success</span>
-       echo json_encode($arrData,JSON_UNESCAPED_UNICODE);
+        
+        echo json_encode($arrData,JSON_UNESCAPED_UNICODE);
         die();
     }
     public function setRol(){

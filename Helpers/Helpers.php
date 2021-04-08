@@ -32,10 +32,10 @@
         return BASE_URL."Recursos/images/parteEdwin/";
     }
     function mediaStivencss(){
-        return BASE_URL."Recursos/css/parteStiven/";
+        return BASE_URL."Recursos/css/parteStiven";
     }
     function mediaStivenjs(){
-        return BASE_URL."Recursos/js/parteStiven/";
+        return BASE_URL."Recursos/js/parteStiven";
     }
     function mediaStivenimages(){
         return BASE_URL."Recursos/images/parteStiven/";
@@ -58,6 +58,18 @@
     function mediaManuelimages(){
         return BASE_URL."Recursos/images/parteManuel/";
     }
+    //Agregar Template Administrador
+    function headerAdmin($data="")
+    {
+        $view_header = "Vistas/Template/header_admin.php";
+        require_once ($view_header);
+    }
+    function FooterAdmin($data="")
+    {
+        $view_footer = "Vistas/Template/footer_admin.php";
+        require_once ($view_footer);
+    }
+
 
     // Formatea información
     function dep($data){
@@ -65,6 +77,11 @@
         $format .= print_r($data);
         $format .= print_r("</pre>");
         return $format;
+    }
+    function getModal(string $nameModal, $data)
+    {
+        $view_modal = "Vistas/Template/Modals/{$nameModal}.php";
+        require_once $view_modal;
     }
     
     function headerTienda($data=""){

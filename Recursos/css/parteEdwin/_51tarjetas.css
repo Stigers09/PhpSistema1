@@ -14,14 +14,13 @@
 .cont {
     margin: 10px;
     width: 200px;
-    height: 300px;
+    height: 260px;
     font-size: 1.5em;
     text-align: center;    
 }
 
 .cont img {
     padding-top: 7px;
-    padding-left: 7px;
     width: 96%;
     height: 70%;
     transition: 1s;

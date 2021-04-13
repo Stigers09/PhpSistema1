@@ -29,11 +29,11 @@ and open the template in the editor.
             <div class="contenedor">
                 <div class="input-contenedor">
                     <i class="fas fa-envelope icon"></i>
-                    <input type="text" name="txtUsu" id="txtUsu" value="" placeholder="Usuario">
+                    <input type="email" name="txtUsu" id="txtUsu" value="" placeholder="Email">
                 </div>
                 <div class="input-contenedor">
                     <i class="fas fa-key icon"></i>
-                    <input type="text" name="txtPass" id="txtPass" value="" placeholder="Contraseña">
+                    <input type="password" name="txtPass" id="txtPass" value="" placeholder="Contraseña">
                 </div>
                 <label>
                     <input type="checkbox"> Recuérdame
@@ -41,8 +41,9 @@ and open the template in the editor.
                 <input type="submit" name="verificar" value="Verificar" class="button">
                 <div>
                     <p>- Verificación Credenciales -</p>
-                    <a href="#"> Mensaje: ${msje}</a>
+                    <a href="#"> Olvidaste tu Contraseña</a>
                 </div>
+                <div id="alertLogin" class= "text-center"></div>
                 <p>¿Si aún no tienes una cuenta? <a class="link" href="<?php base_url(); ?>sign_in"> Registrate</a></p>
             </div>
         </form>

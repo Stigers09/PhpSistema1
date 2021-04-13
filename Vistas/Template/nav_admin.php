@@ -9,7 +9,7 @@
       </div>
       <ul class="app-menu">
         <li>
-          <a class="app-menu__item" href="<?= base_url(); ?>/administrador"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span>
+          <a class="app-menu__item" href="<?= base_url(); ?>administrador"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span>
           </a>
         </li>
         <li class="treeview">
@@ -19,10 +19,10 @@
           <i class="treeview-indicator fa fa-angle-right"></i>
           </a>
           <ul class="treeview-menu">
-           <li><a class="treeview-item" href="<?= base_url(); ?>/crearusuarios"><i class="icon fa fa-circle-o"></i>Crear usuario</a></li>  
-            <li><a class="treeview-item" href="<?= base_url(); ?>/usuarios"><i class="icon fa fa-circle-o"></i>Usuarios</a></li>
-            <li><a class="treeview-item" href="<?= base_url(); ?>/roles"><i class="icon fa fa-circle-o"></i> Roles</a></li>
-            <li><a class="treeview-item" href="<?= base_url(); ?>/permisos"><i class="icon fa fa-circle-o"></i> Permisos</a></li>
+           <li><a class="treeview-item" href="<?= base_url(); ?>crearusuarios"><i class="icon fa fa-circle-o"></i>Crear usuario</a></li>  
+            <li><a class="treeview-item" href="<?= base_url(); ?>usuarios"><i class="icon fa fa-circle-o"></i>Usuarios</a></li>
+            <li><a class="treeview-item" href="<?= base_url(); ?>roles"><i class="icon fa fa-circle-o"></i> Roles</a></li>
+            <li><a class="treeview-item" href="<?= base_url(); ?>permisos"><i class="icon fa fa-circle-o"></i> Permisos</a></li>
           </ul>
         </li>
         <li>

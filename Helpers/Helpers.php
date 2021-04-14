@@ -38,7 +38,7 @@
         return BASE_URL."Recursos/js/parteStiven";
     }
     function mediaStivenimages(){
-        return BASE_URL."Recursos/images/parteStiven/";
+        return BASE_URL."Recursos/images/parteStiven";
     }
     function mediaOscarcss(){
         return BASE_URL."Recursos/css/parteOscar/";

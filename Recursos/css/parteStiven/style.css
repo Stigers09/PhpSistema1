@@ -3,3 +3,18 @@
     background: gray;
     padding: 6px;
 }
+.headerRegister{
+    background:#009688;
+    color:#FFF;
+}
+.headerUpdate{
+    background:#007bff;
+    color:#FFF;
+}
+.notBLock{
+    display:none;
+}
+.app-header {
+    
+    background-color:#83aaf3;
+}

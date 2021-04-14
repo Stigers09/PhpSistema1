@@ -11,3 +11,6 @@ $(function () {
                     increaseArea: '20%' /* optional */
                 });
             });
+$('.login-content [data-toggle="flip"]').click(function() {
+    $('.login-box').toggleClass('flipped');
+});

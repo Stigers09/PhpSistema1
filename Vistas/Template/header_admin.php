@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Stiven Sanchez">
-    <meta name="theme-color" content="#009688">
+    <meta name="theme-color" content="#6cb5d2">
     <link rel="shortcut icon" href="<?= mediaEdwinimages();?>/logo.ico">
     <title><?= $data['page_tag'] ?></title>
     <!-- Main CSS-->
@@ -17,7 +17,7 @@
   </head>
   <body class="app sidebar-mini">
     <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="<?= base_url(); ?>/administrador">Nubecitas de Colores</a>
+    <header class="app-header"><a class="app-header__logo" href="<?= base_url(); ?>administrador">Nubecitas de Colores</a>
       <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
       <!-- Navbar Right Menu-->
       <ul class="app-nav">

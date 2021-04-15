@@ -14,7 +14,8 @@
 .notBLock{
     display:none;
 }
-.app-header {
+.header.app-header {
     
     background-color:#83aaf3;
 }
+

@@ -15,11 +15,15 @@
     display:none;
 
 }
+
 /*LOGIN*/
+
+
 .header.app-header {
     
     background-color:#83aaf3;
 }
+
 .material-half-bg .cover {
     width:100%;
         background-image:url(../../../Recursos/images/parteStiven/login1.jpg);
@@ -120,3 +124,4 @@ a:hover {
 .sweet-alert {
     background-color: #fffbd7;
 }
+

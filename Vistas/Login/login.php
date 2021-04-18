@@ -16,6 +16,7 @@
   </head>
   <body>
     <section class="material-half-bg">
+
       <div class="cover">
       <div class="capa"></div>
       </div>
@@ -23,6 +24,12 @@
     <section class="login-content">
       <div class="logo">
       <img src="<?= mediaEdwinimages ();?>Logo.ico" alt="" class="iconLogin">
+
+      <div class="cover"></div>
+    </section>
+    <section class="login-content">
+      <div class="logo">
+
         <h1><?= $data['page_title']; ?></h1>
       </div>
       <div class="login-box">

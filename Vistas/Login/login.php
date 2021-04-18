@@ -12,7 +12,7 @@
 
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title><?php $data['page_tag']; ?></title>
+    <title><?= $data['page_tag']; ?></title>
   </head>
   <body>
     <section class="material-half-bg">
@@ -20,18 +20,18 @@
     </section>
     <section class="login-content">
       <div class="logo">
-        <h1>Nubecitas de Colores</h1>
+        <h1><?= $data['page_title']; ?></h1>
       </div>
       <div class="login-box">
-        <form class="login-form" action="index.html">
+        <form class="login-form" name="formLogin" id="formLogin" action="">
           <h3 class="login-head"><i class="fa fa-lg fa-fw fa-user"></i>INICIAR SESIÓN</h3>
           <div class="form-group">
             <label class="control-label">USUARIO</label>
-            <input id="txtEmail" class="form-control" type="email" placeholder="Email" autofocus>
+            <input id="txtEmail" name="txtEmail" class="form-control" type="email" placeholder="Email" autofocus>
           </div>
           <div class="form-group">
             <label class="control-label">CONTRASEÑA</label>
-            <input id="txtPassword" class="form-control" type="password" placeholder="contraseña">
+            <input id="txtPassword" name="txtPassword" class="form-control" type="password" placeholder="contraseña">
           </div>
           <div class="form-group">
             <div class="utility">
@@ -59,6 +59,10 @@
         </form>
       </div>
     </section>
+    <script>
+      const base_url = "<?= base_url(); ?>";
+    
+    </script>
     <!-- Essential javascripts for application to work-->
     <script src="<?= mediaStivenjs(); ?>/jquery-3.3.1.min.js"></script>
     <script src="<?= mediaStivenjs(); ?>/popper.min.js"></script>
@@ -66,6 +70,7 @@
     <script src="<?= mediaStivenjs(); ?>/main.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="<?= mediaStivenjs(); ?>/plugins/pace.min.js"></script>
+    <script type="text/javascript" src="<?= mediaStivenjs(); ?>/plugins/sweetalert.min.js"></script>
     <script src="<?= mediaStivenjs(); ?>/<?= $data['page_functions_js']; ?>"></script>
   </body>
 </html>

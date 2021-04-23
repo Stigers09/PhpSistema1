@@ -6,25 +6,23 @@
  * and open the template in the editor.
  */
 
-class Login extends Controllers{
+class Login extends Controllers
+{
+
     public function __construct()
     {
-        session_start();
-        if(isset($_SESSION['login']))
-        {
-            header('Location: '.base_url().'administrador');
-        }
         parent::__construct();
     }
 
     public function login()
     {
         $data['page_tag'] = "Login - Tienda Virtual";
-        $data['page_title'] = "Login - Nubecitas";
+        $data['page_title'] = "Login";
         $data['page_name'] = "login";
         $data['page_functions_js']="functions_login.js";
         $this->views->getView($this,"login",$data);
     }    
+
     public function loginUser(){
         //dep($_POST);
         if($_POST){

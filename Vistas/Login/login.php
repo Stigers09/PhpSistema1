@@ -20,6 +20,45 @@ and open the template in the editor.
     </head>
     <body>
 
+
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title><?= $data['page_tag']; ?></title>
+  </head>
+  <body>
+    <section class="material-half-bg">
+
+      <div class="cover">
+      <div class="capa"></div>
+      </div>
+    </section>
+    <section class="login-content">
+      <div class="logo">
+      <img src="<?= mediaEdwinimages ();?>Logo.ico" alt="" class="iconLogin">
+
+      <div class="cover"></div>
+    </section>
+    <section class="login-content">
+      <div class="logo">
+
+        <h1><?= $data['page_title']; ?></h1>
+      </div>
+      <div class="login-box">
+        <form class="login-form" name="formLogin" id="formLogin" action="">
+          <h3 class="login-head"><i class="fa fa-lg fa-fw fa-user"></i>INICIAR SESIÓN</h3>
+          <div class="form-group">
+            <label class="control-label">USUARIO</label>
+            <input id="txtEmail" name="txtEmail" class="form-control" type="email" placeholder="Email" autofocus>
+          </div>
+          <div class="form-group">
+            <label class="control-label">CONTRASEÑA</label>
+            <input id="txtPassword" name="txtPassword" class="form-control" type="password" placeholder="contraseña">
+          </div>
+          <div class="form-group">
+            <div class="utility">
+            
+              <p class="semibold-text mb-2"><a href="#" data-toggle="flip">¿Olvidaste tu contraseña?</a></p>
+
         <!-- Esta parte pone fondo rosado redirecciona a home-->
         <a href="<?php base_url(); ?>home"><div class="gray"></div></a>
 
@@ -45,6 +84,7 @@ and open the template in the editor.
                 </div>
                 <div id="alertLogin" class= "text-center"></div>
                 <p>¿Si aún no tienes una cuenta? <a class="link" href="<?php base_url(); ?>sign_in"> Registrate</a></p>
+
             </div>
         </form>
 

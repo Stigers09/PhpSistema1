@@ -18,7 +18,7 @@
         <link href="<?= mediaEdwincss() ?>/_51tarjetas.css" rel="stylesheet" type="text/css"/>
         <link href="<?= mediaEdwincss() ?>/_70footer.css" rel="stylesheet" type="text/css"/>        
         <link href="<?= mediaEdwincss() ?>/<?php echo $data['page_name']; ?>_NB_css.css" rel="stylesheet" type="text/css"/>        
-        <script src="<?= mediaEdwinjs(); ?>/index_NB_js.js"></script>
+        
     </head>
 
     <body>

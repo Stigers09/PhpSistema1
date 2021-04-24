@@ -23,4 +23,9 @@ class Tienda extends Controllers
         $data['page_content'] = "Puede llevar algun comentario";
         $this->views->getView($this,"tienda",$data);
     }
+    public function getProductos2(){
+        $arrData = $this->model->selectProductos2();
+        //dep($arrData);
+        return $arrData;
+    }
 }

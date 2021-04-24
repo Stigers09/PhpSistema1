@@ -6,12 +6,15 @@
  * and open the template in the editor.
  */
     class loginModel extends Mysql
-    {
+    {   private $intIdUsuario;
+        private $strUsuario;
+        private $strPassword;
+        private $strToken;
+        
         public function __construct()
         {
             parent::__construct(); // Ejecuta constructor padre (mysql)
         }
-
         public function loginUser(string $usuario, string $password)
         {
             $this->strUsuario = $usuario;
